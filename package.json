@@ -1,0 +1,26 @@
+{
+  "name": "email-templates",
+  "version": "1.0.0",
+  "description": "This is a collection of templates used for emails sent from OMG applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrderMyGear/email-templates.git"
+  },
+  "author": "Danny Raetzsch <danny@ordermygear.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrderMyGear/email-templates/issues"
+  },
+  "homepage": "https://github.com/OrderMyGear/email-templates#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-inline-css": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "handlebars-layouts": "^3.1.3"
+  }
+}
