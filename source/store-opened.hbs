@@ -1,0 +1,14 @@
+{{#extend "default"}}
+  {{#content "title"}}
+    <h1>%title%</h1>
+  {{/content}}
+  {{#content "body"}}
+    <p>
+      The online store for "%saleName%" is now open. Place your orders now at <a href="%url%">%url%</a>!
+    </p>
+    <p>
+      This store will be closed for orders on %saleClose%.
+    </p>
+    <p style="display:none;">&lt;%body%&gt;</p>
+  {{/content}}
+{{/extend}}
