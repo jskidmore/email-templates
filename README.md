@@ -9,3 +9,6 @@ The templates use [Handlebars.js](http://handlebarsjs.com/) with [handlebars-lay
 ## Building
 ```gulp```
 Builds templates from `build/*.hbs` to `build/*.html`
+
+## Future Work
+* Update templates through the [SendGrid's API](https://sendgrid.com/docs/API_Reference/Web_API_v3/Transactional_Templates/templates.html)
