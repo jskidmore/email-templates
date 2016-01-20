@@ -7,7 +7,7 @@ Source for the email templates is in `source/*.hbs` and shared layouts are in `s
 The templates use [Handlebars.js](http://handlebarsjs.com/) with [handlebars-layout](https://www.npmjs.com/package/handlebars-layouts)
 
 ## Building
-```gulp```
+    gulp
 Builds templates from `build/*.hbs` to `build/*.html`
 
 ## Future Work
